@@ -2,10 +2,9 @@ package br.com.lfr;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class TestandoListas {
-    public static void main(String []args){
+    public static void main(String[] args) {
         String aula1 = "Xconhecendo mais de listas";
         String aula2 = "AModelando a classe aula";
         String aula3 = "BTrabalhando com Cursos e Sets";
@@ -15,11 +14,14 @@ public class TestandoListas {
         aulas.add(aula2);
         aulas.add(aula3);
 
-        for (String a:aulas) {
+        for (String a : aulas) {
             System.out.println(a);
         }
 
-        aulas.forEach(a -> {System.out.print("eitaaaaaaaa"); System.out.println("HIIIRUUUUU");});
+        aulas.forEach(a -> {
+            System.out.print("eitaaaaaaaa");
+            System.out.println("HIIIRUUUUU");
+        });
 
         Collections.sort(aulas);
 
